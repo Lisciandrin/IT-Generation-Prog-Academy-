@@ -1,0 +1,4 @@
+const rate = prompt("What is Bitcoin price today?");
+const cash = prompt("How much $ do you have?");
+const total = cash / rate;
+console.log(`You can buy ${total.toFixed(7)} BTC`);
